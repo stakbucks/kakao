@@ -1,6 +1,6 @@
 .nav {
   border-top: 1px solid rgba(121, 121, 121, 0.1);
-  padding: 15px 50px;
+  padding: 20px 50px;
   box-sizing: border-box;
   background-color: #f9f9fa;
   position: fixed;
@@ -18,24 +18,25 @@
 }
 .nav__notification {
   background-color: tomato;
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  font-weight: 300;
+  font-size: 8px;
+  font-weight: 200;
   position: absolute;
-  left: 20px;
-  bottom: 20px;
+  left: 10px;
+  bottom: 10px;
 }
 .nav__ellipsis__notification {
-  width: 6px;
-  height: 6px;
+  width: 4px;
+  height: 4px;
   border-radius: 50%;
   background-color: tomato;
   position: absolute;
-  left: 30px;
-  bottom: 25px;
+  left: 17px;
+  bottom: 15px;
 }
