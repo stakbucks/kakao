@@ -1,6 +1,7 @@
 .user-component {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .user-component__column:first-child {
   display: flex;
@@ -8,10 +9,11 @@
   padding: 7px 0;
 }
 .user-component__column:last-child {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
   color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
 }
 .user-component__column:last-child i {
   margin-left: 5px;
@@ -43,4 +45,8 @@
   width: 50px;
   height: 50px;
   border-radius: 15px;
+}
+.user-component__column__time-info {
+  display: block;
+  margin-bottom: 5px;
 }
