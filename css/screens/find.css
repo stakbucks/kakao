@@ -42,10 +42,15 @@
   font-size: 14px;
   color: var(--grey-text);
 }
+.posts {
+  display: flex;
+  flex-direction: column;
+}
 .open-post {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 20px;
 }
 .open-post__title {
   font-size: 17px;
