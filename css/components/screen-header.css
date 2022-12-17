@@ -16,3 +16,11 @@
 .screen-header__icons span {
   margin-left: 22px;
 }
+.screen-header__icons__gear {
+  position: relative;
+}
+.screen-header__icons__notification {
+  position: absolute;
+  left: 20px;
+  bottom: 17px;
+}

@@ -22,10 +22,6 @@
   bottom: 10px;
 }
 .nav__ellipsis__notification {
-  width: 4px;
-  height: 4px;
-  border-radius: 50%;
-  background-color: tomato;
   position: absolute;
   left: 17px;
   bottom: 15px;
